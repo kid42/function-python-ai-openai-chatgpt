@@ -8,3 +8,6 @@ services:
     project: ./
     language: python
     host: function
+    settings:
+      maxTokensPerMinute: 30  # Adjust this value to fit within your current quota
+   
